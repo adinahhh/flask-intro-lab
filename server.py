@@ -42,14 +42,17 @@ def insult_person():
     </head>
 
     <form action="/greet">
+    /*change the action to a 4th page, not greet*/
+      
       Select a diss:
       <select name="diss">
-        <option value="baby>baby</option>
-        <option value="jerk>jerk</option>
-        <option value="idiot>idiot</option>
+        <option value="baby">baby</option>
+        <option value="jerk">jerk</option>
+        <option value="idiot">idiot</option>
       </select>
       <input type="submit" value="Submit">
     </form>
+    </html>
 
     """
 
